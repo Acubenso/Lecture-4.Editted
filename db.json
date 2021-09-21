@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "image": "1.jpg",
+      "name": "Klimatronik Basic 160L",
+      "price": "7990 грн.",
+      "article": "R1",
+      "available": true
+    },
+    {
+      "image": "2.jpg",
+      "name": "Klimatronik Basic 160H",
+      "price": "9900 грн.",
+      "article": "R2",
+      "available": true
+    },
+    {
+      "image": "3.jpg",
+      "name": "Klimatronik Pro 160L",
+      "price": "13800 грн.",
+      "article": "R3",
+      "available": true
+    },
+    {
+      "image": "4.jpg",
+      "name": "Klimatronik Pro 160M",
+      "price": "15200 грн.",
+      "article": "R4",
+      "available": false
+    },
+    {
+      "image": "5.jpg",
+      "name": "Klimatronik Pro 160H",
+      "price": "17000 грн.",
+      "article": "R5",
+      "available": true
+    },
+    {
+      "image": "6.jpg",
+      "name": "Klimatronik Pro 160K",
+      "price": "19200 грн.",
+      "article": "R6",
+      "available": true
+    }
+  ]
+}
