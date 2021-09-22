@@ -1,23 +1,13 @@
 <template>
   <div id="app">
-    <VHeader />
-    <VMainWrapper />
-    <VFooter />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import VHeader from './components/VHeader'
-import VMainWrapper from './components/VMainWrapper'
-import VFooter from './components/VFooter'
 
 export default {
   name: 'App',
-  components: {
-    VHeader,
-    VMainWrapper,
-    VFooter
-  },
   data() {
     return {
 

@@ -1,12 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-
-import VCart from '../components/VCart'
-import VLogin from '../components/VLogin'
-import VRegister from '../components/VRegister'
-
-
 Vue.use(Router);
 
 let router = new Router({
@@ -14,7 +8,7 @@ let router = new Router({
     {
       path: '/',
       name: 'catalog',
-      component: require('../components/VCatalog.vue').default
+      component: require('../components/VHome.vue').default
     },
     {
       path: '/login',

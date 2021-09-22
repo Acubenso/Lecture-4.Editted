@@ -22,7 +22,7 @@
             v-model="password"
             autocomplete="off"
             id="formPassword"
-            type="text"
+            type="password"
             name="password"
             class="form__input w-100"
             :class="{invalid: $v.password.$dirty && !$v.password.required || $v.password.$dirty && !$v.password.minLength}"
@@ -48,7 +48,7 @@
         </div>
         <div class="beetween">
           <button type="submit" class="btn">Зареєструватись</button>
-          <router-link :to="{name: '/'}" class="black-text">
+          <router-link to="/" class="black-text">
             <button class="back">
               Назад
             </button>

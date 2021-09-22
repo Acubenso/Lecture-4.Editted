@@ -1,12 +1,11 @@
 <template>
   <div class="v-main-wrapper">
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
+    <VCatalog />
   </div>	
 </template>
 
 <script>
+import VCatalog from "./VCatalog";
 import {mapGetters} from 'vuex'
 
   export default {
@@ -14,6 +13,9 @@ import {mapGetters} from 'vuex'
     data() {
       return {
       }
+    },
+    components: {
+      VCatalog
     },
     computed: {
       ...mapGetters([
@@ -24,7 +26,7 @@ import {mapGetters} from 'vuex'
 </script>
 
 <style lang="scss">
-  v-main-wrapper {
+  .v-main-wrapper {
     max-width: 900px;
     margin: 0 auto;
   }	

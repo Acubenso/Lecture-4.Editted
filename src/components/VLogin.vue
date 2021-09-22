@@ -29,7 +29,7 @@
           <input
             autocomplete="off"
             id="formPassword"
-            type="text"
+            type="password"
             name="password"
             class="form__input w-100"
             v-model="password"
@@ -57,7 +57,6 @@
 
 <script>
 import { required, minLength } from 'vuelidate/lib/validators';
-
 
 export default {
   name: "VLogin",

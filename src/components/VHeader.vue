@@ -28,14 +28,18 @@
     </div>
     <div v-if="!isLogin" class="header-validation">
       <div class="header-validation-logIn">
+        <router-link :to="{name: 'login'}">  
           <button class="header-validation-logIn_btn">
             Увійти
           </button>
+        </router-link>
       </div>
       <div class="header-validation-register">
+        <router-link :to="{name: 'register'}">  
           <button class="header-validation-register_btn">
             Зареєструватись
           </button>
+        </router-link>
       </div>
     </div>
     <div v-else>
